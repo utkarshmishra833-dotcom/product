@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korean Marine Collagen Peptides | Wellbeing Nutrition (CRO Demo)</title>
+  <meta name="description" content="CRO-optimized product page demo with improved hero, sticky CTA, trust badges, review summary, FAQ, and bundle offers." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">Wellbeing Nutrition</div>
+      <nav class="topnav" aria-label="Primary">
+        <a href="#benefits">Benefits</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="top">
+      <div class="media-col">
+        <div class="main-image-wrap">
+          <img id="mainImage" src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=1200&auto=format&fit=crop" alt="Korean Marine Collagen Peptides jar" />
+        </div>
+        <div class="thumbs" role="list" aria-label="Product gallery thumbnails">
+          <button class="thumb active" data-img="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=1200&auto=format&fit=crop" aria-label="Product pack shot">1</button>
+          <button class="thumb" data-img="https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=1200&auto=format&fit=crop" aria-label="Benefits visual">2</button>
+          <button class="thumb" data-img="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=1200&auto=format&fit=crop" aria-label="Ingredient visual">3</button>
+          <button class="thumb" data-img="https://images.unsplash.com/photo-1523362289600-a90b0b59a0f1?q=80&w=1200&auto=format&fit=crop" aria-label="How to consume visual">4</button>
+          <button class="thumb" data-img="https://images.unsplash.com/photo-1515377905703-c4788e51af15?q=80&w=1200&auto=format&fit=crop" aria-label="Social proof visual">5</button>
+        </div>
+      </div>
+
+      <div class="content-col">
+        <p class="eyebrow">Korean Marine Collagen Peptides</p>
+        <h1>Glow, Elasticity & Hair Strength Support — Daily Collagen</h1>
+
+        <div class="rating-row" aria-label="Rating summary">
+          <span class="stars">★★★★★</span>
+          <span><strong>4.8</strong> (2,384 verified reviews)</span>
+        </div>
+
+        <ul class="quick-benefits">
+          <li>High absorption marine collagen peptides</li>
+          <li>No added sugar • Easy daily use</li>
+          <li>Supports skin, hair, and nails</li>
+        </ul>
+
+        <div class="price-box" id="priceBox">
+          <div class="price-line">
+            <span class="price" id="salePrice">₹1,499</span>
+            <span class="mrp" id="mrpPrice">₹1,999</span>
+            <span class="save" id="saveText">25% OFF</span>
+          </div>
+          <p class="per-serving" id="perServing">≈ ₹50 / serving</p>
+        </div>
+
+        <div class="variant-row">
+          <label for="variant"><strong>Select pack:</strong></label>
+          <select id="variant" aria-label="Select pack size">
+            <option value="single" data-sale="1499" data-mrp="1999" data-serving="50">Single Pack</option>
+            <option value="double" data-sale="2699" data-mrp="3998" data-serving="45">Double Pack (Best Seller)</option>
+            <option value="triple" data-sale="3799" data-mrp="5997" data-serving="42">Triple Pack (Best Value)</option>
+          </select>
+        </div>
+
+        <div class="cta-row">
+          <button class="btn btn-primary" id="addToCartBtn">Add to Cart</button>
+          <button class="btn btn-secondary" id="buyNowBtn">Buy Now</button>
+        </div>
+
+        <div class="trust-strip" aria-label="Trust badges">
+          <span>🔒 Secure Checkout</span>
+          <span>✅ Quality Certified</span>
+          <span>🚚 Fast Delivery</span>
+          <span>↩️ Easy Returns</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="benefits">
+      <h2>Why customers love it</h2>
+      <div class="benefit-grid">
+        <article class="card"><h3>Skin Elasticity</h3><p>Supports firmer-looking skin with consistent daily use.</p></article>
+        <article class="card"><h3>Healthy Glow</h3><p>Helps improve skin hydration and visible glow.</p></article>
+        <article class="card"><h3>Hair Strength</h3><p>Supports stronger strands and improved hair quality.</p></article>
+        <article class="card"><h3>Nail Support</h3><p>May help reduce brittle nails over time.</p></article>
+        <article class="card"><h3>Easy Routine</h3><p>Simple once-daily usage that fits busy lifestyles.</p></article>
+        <article class="card"><h3>Marine Source</h3><p>Premium marine collagen peptides for better absorption.</p></article>
+      </div>
+    </section>
+
+    <section class="section container" id="bundle">
+      <h2>Frequently Bought Together</h2>
+      <div class="bundle-wrap">
+        <label><input type="checkbox" class="bundle-item" data-price="1499" checked /> Korean Marine Collagen Peptides — ₹1,499</label>
+        <label><input type="checkbox" class="bundle-item" data-price="899" checked /> Vitamin C + Zinc — ₹899</label>
+        <label><input type="checkbox" class="bundle-item" data-price="999" /> Biotin Gummies — ₹999</label>
+        <div class="bundle-summary">
+          <p>Total Bundle Price: <strong id="bundleTotal">₹2,398</strong></p>
+          <button class="btn btn-primary" id="bundleBtn">Add Bundle to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="reviews">
+      <h2>Customer Reviews</h2>
+      <div class="review-summary">
+        <div><strong>4.8★</strong><p>Average rating</p></div>
+        <div><strong>2,384</strong><p>Verified reviews</p></div>
+        <div><strong>Top mentions</strong><p>Glow, Hair strength, Easy to use</p></div>
+      </div>
+      <div class="review-list">
+        <article class="review-card"><h3>“Visible glow in 4 weeks”</h3><p>I noticed better skin texture and hydration after daily use.</p><small>— Priya, Verified Buyer</small></article>
+        <article class="review-card"><h3>“Easy in my routine”</h3><p>Tastes good and blends well. Hair fall looked reduced over time.</p><small>— Rhea, Verified Buyer</small></article>
+        <article class="review-card"><h3>“Worth the price”</h3><p>The per-serving value and results make it a repeat purchase for me.</p><small>— Ananya, Verified Buyer</small></article>
+      </div>
+      <div class="cta-row section-cta">
+        <button class="btn btn-primary">Add to Cart</button>
+        <button class="btn btn-secondary">Buy Now</button>
+      </div>
+    </section>
+
+    <section class="section container" id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <details><summary>Who should use this product?</summary><p>Adults looking to support skin, hair, and nail health can include it in their daily routine.</p></details>
+        <details><summary>How should I consume it?</summary><p>Take one serving daily as directed on the label, ideally consistently for best results.</p></details>
+        <details><summary>When can I expect results?</summary><p>Most users report visible changes in 4–8 weeks, depending on lifestyle and consistency.</p></details>
+        <details><summary>Is it safe for daily use?</summary><p>It is intended for regular use. If you have medical conditions, consult your healthcare professional.</p></details>
+        <details><summary>What is the collagen source?</summary><p>This product uses marine collagen peptides.</p></details>
+        <details><summary>What are shipping and return timelines?</summary><p>Standard shipping usually takes 3–7 days. Return policy depends on seller terms.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <div class="mobile-sticky" id="mobileSticky" aria-live="polite">
+    <div>
+      <small>Starting at</small>
+      <strong id="stickyPrice">₹1,499</strong>
+    </div>
+    <button class="btn btn-primary" id="stickyAddBtn">Add to Cart</button>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Wellbeing Nutrition — CRO Demo Product Page</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
